@@ -110,7 +110,7 @@ public class testRedis2 {
 	    //把之前的删除
 	    jedis.del(key);
 	 
-	    // 队列添加元素
+	    // 队列添加元素 
 	    jedis.rpush(key, "aaaa");
 	    jedis.rpush(key, "aaaa");
 	    jedis.rpush(key, "bbbb");
